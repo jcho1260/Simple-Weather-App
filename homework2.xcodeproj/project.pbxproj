@@ -13,10 +13,6 @@
 		DC5A2C1823EF387F00EBD2E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5A2C1623EF387F00EBD2E3 /* Main.storyboard */; };
 		DC5A2C1A23EF388500EBD2E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC5A2C1923EF388500EBD2E3 /* Assets.xcassets */; };
 		DC5A2C1D23EF388500EBD2E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5A2C1B23EF388500EBD2E3 /* LaunchScreen.storyboard */; };
-		DC5A2C2523EF3BD800EBD2E3 /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5A2C2423EF3BD800EBD2E3 /* WeatherTableViewCell.swift */; };
-		DC5A2C2723EF3C6600EBD2E3 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5A2C2623EF3C6600EBD2E3 /* WeatherViewController.swift */; };
-		DC5A2C2923EF3CC700EBD2E3 /* WeatherTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5A2C2823EF3CC700EBD2E3 /* WeatherTableViewController.swift */; };
-		DC5A2C2B23EF4CB800EBD2E3 /* images in Resources */ = {isa = PBXBuildFile; fileRef = DC5A2C2A23EF4CB800EBD2E3 /* images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +24,6 @@
 		DC5A2C1923EF388500EBD2E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC5A2C1C23EF388500EBD2E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC5A2C1E23EF388500EBD2E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC5A2C2423EF3BD800EBD2E3 /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
-		DC5A2C2623EF3C6600EBD2E3 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
-		DC5A2C2823EF3CC700EBD2E3 /* WeatherTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewController.swift; sourceTree = "<group>"; };
-		DC5A2C2A23EF4CB800EBD2E3 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +56,10 @@
 		DC5A2C0F23EF387F00EBD2E3 /* homework2 */ = {
 			isa = PBXGroup;
 			children = (
-				DC5A2C2A23EF4CB800EBD2E3 /* images */,
 				DC5A2C1023EF387F00EBD2E3 /* AppDelegate.swift */,
 				DC5A2C1223EF387F00EBD2E3 /* SceneDelegate.swift */,
 				DC5A2C1423EF387F00EBD2E3 /* ViewController.swift */,
 				DC5A2C1623EF387F00EBD2E3 /* Main.storyboard */,
-				DC5A2C2823EF3CC700EBD2E3 /* WeatherTableViewController.swift */,
-				DC5A2C2623EF3C6600EBD2E3 /* WeatherViewController.swift */,
-				DC5A2C2423EF3BD800EBD2E3 /* WeatherTableViewCell.swift */,
 				DC5A2C1923EF388500EBD2E3 /* Assets.xcassets */,
 				DC5A2C1B23EF388500EBD2E3 /* LaunchScreen.storyboard */,
 				DC5A2C1E23EF388500EBD2E3 /* Info.plist */,
@@ -137,7 +125,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC5A2C2B23EF4CB800EBD2E3 /* images in Resources */,
 				DC5A2C1D23EF388500EBD2E3 /* LaunchScreen.storyboard in Resources */,
 				DC5A2C1A23EF388500EBD2E3 /* Assets.xcassets in Resources */,
 				DC5A2C1823EF387F00EBD2E3 /* Main.storyboard in Resources */,
@@ -151,11 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC5A2C2523EF3BD800EBD2E3 /* WeatherTableViewCell.swift in Sources */,
-				DC5A2C2723EF3C6600EBD2E3 /* WeatherViewController.swift in Sources */,
 				DC5A2C1523EF387F00EBD2E3 /* ViewController.swift in Sources */,
 				DC5A2C1123EF387F00EBD2E3 /* AppDelegate.swift in Sources */,
-				DC5A2C2923EF3CC700EBD2E3 /* WeatherTableViewController.swift in Sources */,
 				DC5A2C1323EF387F00EBD2E3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
